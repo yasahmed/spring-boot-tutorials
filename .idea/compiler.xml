@@ -2,30 +2,68 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="configuration-properties" />
+        <module name="eureka-client-example" />
+        <module name="eureka-server-example" />
+        <module name="feign-client-example" />
         <module name="jpa-hibernate-composite-primay-key" />
         <module name="jpa-hibernate-elementcollection-collectiontable" />
         <module name="jpa-hibernate-embeddable" />
+      </profile>
+      <profile name="Annotation profile for swagger" enabled="true">
+        <sourceOutputDir name="../swagger/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../swagger/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-swagger" />
-        <module name="spring-boot-thymleaf" />
+      </profile>
+      <profile name="Annotation profile for ldap" enabled="true">
+        <sourceOutputDir name="../ldap/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../ldap/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="spring-security-ldap" />
-        <module name="tutorials" />
+      </profile>
+      <profile name="Annotation profile for thymleaf" enabled="true">
+        <sourceOutputDir name="../thymleaf/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../thymleaf/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-thymleaf" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="eureka-client-example" target="1.8" />
+      <module name="eureka-server-example" target="1.8" />
+      <module name="Full_Example_Microservice" target="1.5" />
+      <module name="gatway" target="1.8" />
+      <module name="gatway-service" target="1.8" />
+      <module name="microservicesfullexample" target="1.5" />
+      <module name="service-gallery" target="1.8" />
+      <module name="service-gatway" target="1.8" />
+      <module name="service-image" target="1.8" />
+      <module name="spring-boot-swagger" target="1.8" />
+      <module name="spring-boot-thymleaf" target="1.8" />
+      <module name="spring-security-ldap" target="1.8" />
       <module name="spring-security-view-1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="configuration-properties" options="-parameters" />
+      <module name="eureka-client-example" options="-parameters" />
+      <module name="eureka-server-example" options="-parameters" />
+      <module name="feign-client-example" options="-parameters" />
+      <module name="gatway" options="-parameters" />
+      <module name="gatway-service" options="-parameters" />
       <module name="jpa-hibernate-composite-primay-key" options="-parameters" />
       <module name="jpa-hibernate-elementcollection-collectiontable" options="-parameters" />
       <module name="jpa-hibernate-embeddable" options="-parameters" />
+      <module name="service-gallery" options="-parameters" />
+      <module name="service-gatway" options="-parameters" />
+      <module name="service-image" options="-parameters" />
       <module name="spring-boot-swagger" options="-parameters" />
       <module name="spring-boot-thymleaf" options="-parameters" />
       <module name="spring-security-ldap" options="-parameters" />

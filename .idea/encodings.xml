@@ -2,9 +2,15 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/configuration-properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-client-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-client-example" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jpa-hibernate-composite-primay-key" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jpa-hibernate-elementcollection-collectiontable" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jpa-hibernate-embeddable" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-gallery" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-gatway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-image" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-swagger" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-thymleaf" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-security-ldap" charset="UTF-8" />
